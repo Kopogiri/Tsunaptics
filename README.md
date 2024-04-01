@@ -26,7 +26,7 @@ If you are using the carrier board please change the following code in the Sense
 firmware -
 SENSESGHIFT-FIRMWARE > firmware > mode_configs > bhaptics > tactal.cpp
 Make the code here match on line 32
-''' \
+```
 void setupMode()
 {
     // Configure PWM pins to their positions on the face
@@ -37,6 +37,7 @@ void setupMode()
       // -------------Node 01-------------------Node 02------------------Node 03------------------Node 04------------------Node 05------------------Node 06---
       // clang-format on
     });
+```
 Then flash the firmware to the D1 Mini.
 
 Solder the Switch, ULN and TP4057 to the carrier board.
@@ -46,7 +47,7 @@ Solder standoffs to the relevant pins written on the board and then solder the D
 ![alt text](https://github.com/Tonouda/Headpat-Haptics/blob/main/tsunaptics002.png?raw=true) \
 Now connect the battery to the underside of the board. Red to Bat+ and Black to Bat-.
 
-Alrighty! Now print the hapticsholdingthingy.stl. It is currently made to fit an aftermarket 
+Alrighty! Now print the hapticsholdingthingy.stl. [here](https://github.com/Tonouda/Headpat-Haptics/blob/main/HapticHoldingthingy%20v1.stl) or [here](https://github.com/Tonouda/Headpat-Haptics/blob/main/HapticHoldingthingy%20v2.stl) It is currently made to fit an aftermarket 
 Quest 2 strap through it. So feel free to edit it to fit your desired strap size or re create 
 the jig entirely. \
 ![alt text](https://github.com/Tonouda/Headpat-Haptics/blob/main/Screenshot%202024-04-01%20233346.png?raw=true) \
