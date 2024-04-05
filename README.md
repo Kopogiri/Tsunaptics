@@ -41,7 +41,7 @@ void setupMode()
 Then flash the firmware to the D1 Mini.
 
 Solder the Switch, ULN and TP4057 to the carrier board.
-Carrier board Gerber [here](https://github.com/Tonouda/Headpat-Haptics/blob/main/HeadpatHapticsGerber.zip). You can order these from places such as JLCPCB or PCBWay.
+Carrier board Gerber [here](https://github.com/Tonouda/a-bunch-of-junk/blob/main/HeadpatHapticsGerber.zip). You can order these from places such as JLCPCB or PCBWay.
 ![alt text](https://github.com/Tonouda/Headpat-Haptics/blob/main/tsunaptics001.png?raw=true)
 
 Solder standoffs to the relevant pins written on the board and then solder the D1 Mini to the board. \
