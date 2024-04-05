@@ -42,16 +42,16 @@ Then flash the firmware to the D1 Mini.
 
 Solder the Switch, ULN and TP4057 to the carrier board.
 Carrier board Gerber [here](https://github.com/Tonouda/a-bunch-of-junk/raw/main/HeadpatHapticsGerber.zip). You can order these from places such as JLCPCB or PCBWay.
-![alt text](https://github.com/Tonouda/Headpat-Haptics/blob/main/tsunaptics001.png?raw=true)
+![alt text](https://github.com/Tonouda/a-bunch-of-junk/blob/main/tsunaptics001.png?raw=true)
 
 Solder standoffs to the relevant pins written on the board and then solder the D1 Mini to the board. \
-![alt text](https://github.com/Tonouda/Headpat-Haptics/blob/main/tsunaptics002.png?raw=true) \
+![alt text](https://github.com/Tonouda/a-bunch-of-junk/blob/main/tsunaptics002.png?raw=true) \
 Now connect the battery to the underside of the board. Red to Bat+ and Black to Bat-.
 
-Alrighty! Now print the hapticsholdingthingy.stl. [here](https://github.com/Tonouda/Headpat-Haptics/blob/main/HapticHoldingthingy%20v1.stl) or [here](https://github.com/Tonouda/Headpat-Haptics/blob/main/HapticHoldingthingy%20v2.stl) It is currently made to fit an aftermarket 
+Alrighty! Now print the hapticsholdingthingy.stl. [here](https://github.com/Tonouda/a-bunch-of-junk/blob/main/HapticHoldingthingy%20v1.stl) or [here](https://github.com/Tonouda/a-bunch-of-junk/blob/main/HapticHoldingthingy%20v2.stl) It is currently made to fit an aftermarket 
 Quest 2 strap through it. So feel free to edit it to fit your desired strap size or re create 
 the jig entirely. \
-![alt text](https://github.com/Tonouda/Headpat-Haptics/blob/main/Screenshot%202024-04-01%20233346.png?raw=true) \
+![alt text](https://github.com/Tonouda/a-bunch-of-junk/blob/main/Screenshot%202024-04-01%20233346.png?raw=true) \
 Once printed, you can drop the assembly into the middle bit. It should fit nice and snug.
 
 Now grab your kitchen sponge and cut it into 6 pieces.
@@ -75,26 +75,27 @@ and slightly bend the arms to fit the roundness of your head.
 
 You should now have something that looks like this (ish). Yours can be so much neater 
 and tidier. This is a mess of experimenting, trial and error. \
-![alt text](https://github.com/Tonouda/Headpat-Haptics/blob/main/Screenshot%202024-04-01%20233635.png?raw=true) \
+![alt text](https://github.com/Tonouda/a-bunch-of-junk/blob/main/Screenshot%202024-04-01%20233635.png?raw=true) \
 Test it with the bhaptics software and make sure all the motors work.
 
 # OKAY NOW ITS TIME TO EDIT THE AVATAR!!! YIPPIE? -
 Firstly watch [this youtube video](https://www.youtube.com/watch?v=QCtdo5_cYdk&ab_channel=PxINKY). It’s great! It will do most of the work for you. Get the 
-facial interface imported.
+facial interface imported. \
+If the files provided don't work. Try and use [this](https://github.com/Tonouda/a-bunch-of-junk/raw/main/av3-animator-as-code-main%20(1).zip) file instead.
 
 At this point make sure that the facial interface is attached to the HEAD in the armature 
 list. See example- \
-![alt text](https://github.com/Tonouda/Headpat-Haptics/blob/main/Screenshot%202024-04-01%20233702.png?raw=true)
+![alt text](https://github.com/Tonouda/a-bunch-of-junk/blob/main/Screenshot%202024-04-01%20233702.png?raw=true)
 
 In the Inspector, you can untick the Mesh Renderer to hide the face plate. \
-![alt text](https://github.com/Tonouda/Headpat-Haptics/blob/main/Screenshot%202024-04-01%20233709.png?raw=true)
+![alt text](https://github.com/Tonouda/a-bunch-of-junk/blob/main/Screenshot%202024-04-01%20233709.png?raw=true)
 
 Awesome! 
 Now click on the arrow to the right of Head in the armatures list to open up the prefab. \
-![alt text](https://github.com/Tonouda/Headpat-Haptics/blob/main/Screenshot%202024-04-01%20233713.png?raw=true)
+![alt text](https://github.com/Tonouda/a-bunch-of-junk/blob/main/Screenshot%202024-04-01%20233713.png?raw=true)
 
 It will look like this. \
-![alt text](https://github.com/Tonouda/Headpat-Haptics/blob/main/Screenshot%202024-04-01%20233718.png?raw=true)
+![alt text](https://github.com/Tonouda/a-bunch-of-junk/blob/main/Screenshot%202024-04-01%20233718.png?raw=true)
 
 You can go ahead and hide Head_Motors in the Inspector. You wont need to see those.
 As a quick explanation, the Others drop down is contacts used to interact with Other 
@@ -116,12 +117,12 @@ Collision Tags is also important in the same sense. By defult they have Head, Ha
 Finger and Foot. You can see that I have only kept hand and finger as I don’t wish to be 
 headbutted or kicked in the head.
 And that should be everything you need to know. \
-![alt text](https://github.com/Tonouda/Headpat-Haptics/blob/main/Screenshot%202024-04-01%20233725.png?raw=true)
+![alt text](https://github.com/Tonouda/a-bunch-of-junk/blob/main/Screenshot%202024-04-01%20233725.png?raw=true)
 
 The last job is to position the nodes to fit your avatar.
 As I mentioned earlier, the firmware and bhaptics is wacky. 
 The nodes for me work like so- \
-![alt text](https://github.com/Tonouda/Headpat-Haptics/blob/main/Screenshot%202024-04-01%20233733.png?raw=true)
+![alt text](https://github.com/Tonouda/a-bunch-of-junk/blob/main/Screenshot%202024-04-01%20233733.png?raw=true)
 
 Then you’re good to go!
 Upload your avatar, jump into VR, grab a friend and get them to test it for you!
