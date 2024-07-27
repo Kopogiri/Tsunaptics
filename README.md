@@ -129,4 +129,4 @@ Upload your avatar, jump into VR, grab a friend and get them to test it for you!
 Have fun!!
 
 Lots of love,
-Tsuna
+Kopo
